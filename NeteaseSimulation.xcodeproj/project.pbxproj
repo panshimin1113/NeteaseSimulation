@@ -15,6 +15,7 @@
 		1DA4C0761CA389F600B7EE38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DA4C0741CA389F600B7EE38 /* LaunchScreen.storyboard */; };
 		1DA4C0811CA389F600B7EE38 /* NeteaseSimulationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA4C0801CA389F600B7EE38 /* NeteaseSimulationTests.swift */; };
 		1DA4C08C1CA389F600B7EE38 /* NeteaseSimulationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA4C08B1CA389F600B7EE38 /* NeteaseSimulationUITests.swift */; };
+		1DA4C09F1CA3C25100B7EE38 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA4C09E1CA3C25100B7EE38 /* NetworkRequest.swift */; };
 		7D6E52E068CDD2EBD551ADDE /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA460BCF0491F87AFB8FF24 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		1DA4C0871CA389F600B7EE38 /* NeteaseSimulationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeteaseSimulationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DA4C08B1CA389F600B7EE38 /* NeteaseSimulationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeteaseSimulationUITests.swift; sourceTree = "<group>"; };
 		1DA4C08D1CA389F600B7EE38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DA4C09E1CA3C25100B7EE38 /* NetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
 		2B15D162A92831BBA3C2EB45 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		5CA460BCF0491F87AFB8FF24 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7B66847DB618FF8CBDEA995 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -106,6 +108,11 @@
 		1DA4C0671CA389F600B7EE38 /* NeteaseSimulation */ = {
 			isa = PBXGroup;
 			children = (
+				1DA4C0991CA3C1FB00B7EE38 /* Base */,
+				1DA4C09A1CA3C1FB00B7EE38 /* Model */,
+				1DA4C09B1CA3C1FB00B7EE38 /* Network */,
+				1DA4C09C1CA3C1FB00B7EE38 /* UI */,
+				1DA4C09D1CA3C1FB00B7EE38 /* Vendors */,
 				1DA4C0681CA389F600B7EE38 /* AppDelegate.swift */,
 				1DA4C06A1CA389F600B7EE38 /* ViewController.swift */,
 				1DA4C06C1CA389F600B7EE38 /* Main.storyboard */,
@@ -133,6 +140,42 @@
 				1DA4C08D1CA389F600B7EE38 /* Info.plist */,
 			);
 			path = NeteaseSimulationUITests;
+			sourceTree = "<group>";
+		};
+		1DA4C0991CA3C1FB00B7EE38 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		1DA4C09A1CA3C1FB00B7EE38 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1DA4C09B1CA3C1FB00B7EE38 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1DA4C09E1CA3C25100B7EE38 /* NetworkRequest.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1DA4C09C1CA3C1FB00B7EE38 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		1DA4C09D1CA3C1FB00B7EE38 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
 			sourceTree = "<group>";
 		};
 		70D5EC7FB7B72A60C013B3E7 /* Frameworks */ = {
@@ -336,6 +379,7 @@
 			files = (
 				1DA4C06B1CA389F600B7EE38 /* ViewController.swift in Sources */,
 				1DA4C0711CA389F600B7EE38 /* NeteaseSimulation.xcdatamodeld in Sources */,
+				1DA4C09F1CA3C25100B7EE38 /* NetworkRequest.swift in Sources */,
 				1DA4C0691CA389F600B7EE38 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,9 +471,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -466,7 +510,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
