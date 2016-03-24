@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DA4C0691CA389F600B7EE38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA4C0681CA389F600B7EE38 /* AppDelegate.swift */; };
+		1DA4C06B1CA389F600B7EE38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA4C06A1CA389F600B7EE38 /* ViewController.swift */; };
+		1DA4C06E1CA389F600B7EE38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DA4C06C1CA389F600B7EE38 /* Main.storyboard */; };
+		1DA4C0711CA389F600B7EE38 /* NeteaseSimulation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1DA4C06F1CA389F600B7EE38 /* NeteaseSimulation.xcdatamodeld */; };
+		1DA4C0731CA389F600B7EE38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DA4C0721CA389F600B7EE38 /* Assets.xcassets */; };
+		1DA4C0761CA389F600B7EE38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DA4C0741CA389F600B7EE38 /* LaunchScreen.storyboard */; };
+		1DA4C0811CA389F600B7EE38 /* NeteaseSimulationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA4C0801CA389F600B7EE38 /* NeteaseSimulationTests.swift */; };
+		1DA4C08C1CA389F600B7EE38 /* NeteaseSimulationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA4C08B1CA389F600B7EE38 /* NeteaseSimulationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DA4C07D1CA389F600B7EE38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DA4C05D1CA389F600B7EE38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DA4C0641CA389F600B7EE38;
+			remoteInfo = NeteaseSimulation;
+		};
+		1DA4C0881CA389F600B7EE38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DA4C05D1CA389F600B7EE38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DA4C0641CA389F600B7EE38;
+			remoteInfo = NeteaseSimulation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DA4C0651CA389F600B7EE38 /* NeteaseSimulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeteaseSimulation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DA4C0681CA389F600B7EE38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1DA4C06A1CA389F600B7EE38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1DA4C06D1CA389F600B7EE38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1DA4C0701CA389F600B7EE38 /* NeteaseSimulation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NeteaseSimulation.xcdatamodel; sourceTree = "<group>"; };
+		1DA4C0721CA389F600B7EE38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DA4C0751CA389F600B7EE38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1DA4C0771CA389F600B7EE38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DA4C07C1CA389F600B7EE38 /* NeteaseSimulationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeteaseSimulationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DA4C0801CA389F600B7EE38 /* NeteaseSimulationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeteaseSimulationTests.swift; sourceTree = "<group>"; };
+		1DA4C0821CA389F600B7EE38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DA4C0871CA389F600B7EE38 /* NeteaseSimulationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeteaseSimulationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DA4C08B1CA389F600B7EE38 /* NeteaseSimulationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeteaseSimulationUITests.swift; sourceTree = "<group>"; };
+		1DA4C08D1CA389F600B7EE38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DA4C0621CA389F600B7EE38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DA4C0791CA389F600B7EE38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DA4C0841CA389F600B7EE38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DA4C05C1CA389F600B7EE38 = {
+			isa = PBXGroup;
+			children = (
+				1DA4C0671CA389F600B7EE38 /* NeteaseSimulation */,
+				1DA4C07F1CA389F600B7EE38 /* NeteaseSimulationTests */,
+				1DA4C08A1CA389F600B7EE38 /* NeteaseSimulationUITests */,
+				1DA4C0661CA389F600B7EE38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DA4C0661CA389F600B7EE38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DA4C0651CA389F600B7EE38 /* NeteaseSimulation.app */,
+				1DA4C07C1CA389F600B7EE38 /* NeteaseSimulationTests.xctest */,
+				1DA4C0871CA389F600B7EE38 /* NeteaseSimulationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DA4C0671CA389F600B7EE38 /* NeteaseSimulation */ = {
+			isa = PBXGroup;
+			children = (
+				1DA4C0681CA389F600B7EE38 /* AppDelegate.swift */,
+				1DA4C06A1CA389F600B7EE38 /* ViewController.swift */,
+				1DA4C06C1CA389F600B7EE38 /* Main.storyboard */,
+				1DA4C0721CA389F600B7EE38 /* Assets.xcassets */,
+				1DA4C0741CA389F600B7EE38 /* LaunchScreen.storyboard */,
+				1DA4C0771CA389F600B7EE38 /* Info.plist */,
+				1DA4C06F1CA389F600B7EE38 /* NeteaseSimulation.xcdatamodeld */,
+			);
+			path = NeteaseSimulation;
+			sourceTree = "<group>";
+		};
+		1DA4C07F1CA389F600B7EE38 /* NeteaseSimulationTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DA4C0801CA389F600B7EE38 /* NeteaseSimulationTests.swift */,
+				1DA4C0821CA389F600B7EE38 /* Info.plist */,
+			);
+			path = NeteaseSimulationTests;
+			sourceTree = "<group>";
+		};
+		1DA4C08A1CA389F600B7EE38 /* NeteaseSimulationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1DA4C08B1CA389F600B7EE38 /* NeteaseSimulationUITests.swift */,
+				1DA4C08D1CA389F600B7EE38 /* Info.plist */,
+			);
+			path = NeteaseSimulationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DA4C0641CA389F600B7EE38 /* NeteaseSimulation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DA4C0901CA389F600B7EE38 /* Build configuration list for PBXNativeTarget "NeteaseSimulation" */;
+			buildPhases = (
+				1DA4C0611CA389F600B7EE38 /* Sources */,
+				1DA4C0621CA389F600B7EE38 /* Frameworks */,
+				1DA4C0631CA389F600B7EE38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeteaseSimulation;
+			productName = NeteaseSimulation;
+			productReference = 1DA4C0651CA389F600B7EE38 /* NeteaseSimulation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DA4C07B1CA389F600B7EE38 /* NeteaseSimulationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DA4C0931CA389F600B7EE38 /* Build configuration list for PBXNativeTarget "NeteaseSimulationTests" */;
+			buildPhases = (
+				1DA4C0781CA389F600B7EE38 /* Sources */,
+				1DA4C0791CA389F600B7EE38 /* Frameworks */,
+				1DA4C07A1CA389F600B7EE38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DA4C07E1CA389F600B7EE38 /* PBXTargetDependency */,
+			);
+			name = NeteaseSimulationTests;
+			productName = NeteaseSimulationTests;
+			productReference = 1DA4C07C1CA389F600B7EE38 /* NeteaseSimulationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1DA4C0861CA389F600B7EE38 /* NeteaseSimulationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DA4C0961CA389F600B7EE38 /* Build configuration list for PBXNativeTarget "NeteaseSimulationUITests" */;
+			buildPhases = (
+				1DA4C0831CA389F600B7EE38 /* Sources */,
+				1DA4C0841CA389F600B7EE38 /* Frameworks */,
+				1DA4C0851CA389F600B7EE38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DA4C0891CA389F600B7EE38 /* PBXTargetDependency */,
+			);
+			name = NeteaseSimulationUITests;
+			productName = NeteaseSimulationUITests;
+			productReference = 1DA4C0871CA389F600B7EE38 /* NeteaseSimulationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DA4C05D1CA389F600B7EE38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zhanglichi;
+				TargetAttributes = {
+					1DA4C0641CA389F600B7EE38 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1DA4C07B1CA389F600B7EE38 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1DA4C0641CA389F600B7EE38;
+					};
+					1DA4C0861CA389F600B7EE38 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1DA4C0641CA389F600B7EE38;
+					};
+				};
+			};
+			buildConfigurationList = 1DA4C0601CA389F600B7EE38 /* Build configuration list for PBXProject "NeteaseSimulation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DA4C05C1CA389F600B7EE38;
+			productRefGroup = 1DA4C0661CA389F600B7EE38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DA4C0641CA389F600B7EE38 /* NeteaseSimulation */,
+				1DA4C07B1CA389F600B7EE38 /* NeteaseSimulationTests */,
+				1DA4C0861CA389F600B7EE38 /* NeteaseSimulationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DA4C0631CA389F600B7EE38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DA4C0761CA389F600B7EE38 /* LaunchScreen.storyboard in Resources */,
+				1DA4C0731CA389F600B7EE38 /* Assets.xcassets in Resources */,
+				1DA4C06E1CA389F600B7EE38 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DA4C07A1CA389F600B7EE38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DA4C0851CA389F600B7EE38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DA4C0611CA389F600B7EE38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DA4C06B1CA389F600B7EE38 /* ViewController.swift in Sources */,
+				1DA4C0711CA389F600B7EE38 /* NeteaseSimulation.xcdatamodeld in Sources */,
+				1DA4C0691CA389F600B7EE38 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DA4C0781CA389F600B7EE38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DA4C0811CA389F600B7EE38 /* NeteaseSimulationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DA4C0831CA389F600B7EE38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DA4C08C1CA389F600B7EE38 /* NeteaseSimulationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DA4C07E1CA389F600B7EE38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DA4C0641CA389F600B7EE38 /* NeteaseSimulation */;
+			targetProxy = 1DA4C07D1CA389F600B7EE38 /* PBXContainerItemProxy */;
+		};
+		1DA4C0891CA389F600B7EE38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DA4C0641CA389F600B7EE38 /* NeteaseSimulation */;
+			targetProxy = 1DA4C0881CA389F600B7EE38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1DA4C06C1CA389F600B7EE38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DA4C06D1CA389F600B7EE38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1DA4C0741CA389F600B7EE38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DA4C0751CA389F600B7EE38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DA4C08E1CA389F600B7EE38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DA4C08F1CA389F600B7EE38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DA4C0911CA389F600B7EE38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NeteaseSimulation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhanglichi.NeteaseSimulation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1DA4C0921CA389F600B7EE38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NeteaseSimulation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhanglichi.NeteaseSimulation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1DA4C0941CA389F600B7EE38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NeteaseSimulationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhanglichi.NeteaseSimulationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeteaseSimulation.app/NeteaseSimulation";
+			};
+			name = Debug;
+		};
+		1DA4C0951CA389F600B7EE38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NeteaseSimulationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhanglichi.NeteaseSimulationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeteaseSimulation.app/NeteaseSimulation";
+			};
+			name = Release;
+		};
+		1DA4C0971CA389F600B7EE38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NeteaseSimulationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhanglichi.NeteaseSimulationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NeteaseSimulation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1DA4C0981CA389F600B7EE38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NeteaseSimulationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhanglichi.NeteaseSimulationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NeteaseSimulation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DA4C0601CA389F600B7EE38 /* Build configuration list for PBXProject "NeteaseSimulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DA4C08E1CA389F600B7EE38 /* Debug */,
+				1DA4C08F1CA389F600B7EE38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DA4C0901CA389F600B7EE38 /* Build configuration list for PBXNativeTarget "NeteaseSimulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DA4C0911CA389F600B7EE38 /* Debug */,
+				1DA4C0921CA389F600B7EE38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1DA4C0931CA389F600B7EE38 /* Build configuration list for PBXNativeTarget "NeteaseSimulationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DA4C0941CA389F600B7EE38 /* Debug */,
+				1DA4C0951CA389F600B7EE38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1DA4C0961CA389F600B7EE38 /* Build configuration list for PBXNativeTarget "NeteaseSimulationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DA4C0971CA389F600B7EE38 /* Debug */,
+				1DA4C0981CA389F600B7EE38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1DA4C06F1CA389F600B7EE38 /* NeteaseSimulation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1DA4C0701CA389F600B7EE38 /* NeteaseSimulation.xcdatamodel */,
+			);
+			currentVersion = 1DA4C0701CA389F600B7EE38 /* NeteaseSimulation.xcdatamodel */;
+			path = NeteaseSimulation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1DA4C05D1CA389F600B7EE38 /* Project object */;
+}
